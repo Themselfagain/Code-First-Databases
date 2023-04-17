@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BookShop_CodeFirst_DB.Data
 {
-    public class BookShopSchoolContext
+    public class BookShopSchoolContext:DbContext
     {
         public BookShopSchoolContext() { }
         public BookShopSchoolContext(DbContextOptions options) : base(options) { }

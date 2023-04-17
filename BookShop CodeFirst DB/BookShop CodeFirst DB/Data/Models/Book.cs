@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookShop_CodeFirst_DB.Data.Models.Enum;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
