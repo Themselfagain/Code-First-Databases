@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace VaporStore.Data.Models
 {
-    class PurchaseType
+    public enum PurchaseType
     {
+        Retail = 1, Digital = 2
     }
 }

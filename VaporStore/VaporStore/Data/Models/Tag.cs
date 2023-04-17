@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Build.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,15 @@ using System.Threading.Tasks;
 
 namespace VaporStore.Data.Models
 {
-    class Tag
+    public class Tag
     {
+        public Tag()
+        {
+            this.GameTags = new HashSet<GameTag>();    
+        }
+        public int Id { get; set; }
+        [Required]
+        public string Name { get; set; }
+        public ICollection<GameTag> GameTags { get; set; }
     }
 }

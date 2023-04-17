@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace VaporStore.Data
 {
-    class Configuration
+    public static class Configuration
     {
+        public static string ConnectionString = @"Server=.;Database=VaporStoreDB;Trusted_Connection=True";
     }
 }

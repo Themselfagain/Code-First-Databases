@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace VaporStore.Data.Models
 {
-    class CardType
+    public enum CardType
     {
+        Debit=1,Credit=2
     }
 }
