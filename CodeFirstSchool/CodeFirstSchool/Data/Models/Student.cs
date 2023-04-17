@@ -18,7 +18,7 @@ namespace CodeFirstSchool.Data.Models
         }
         public int Id { get; set; }
         [Required]
-        [MaxLength(15]
+        [MaxLength(15)]
         [MinLength(3)]
         public string FirstName { get; set; }
         [Required]
