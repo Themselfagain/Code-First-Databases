@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CodeFirstSchool.Data
 {
-    class SchoolContext
+    class SchoolContext:DbContext
     {
         public SchoolContext() { }
         public SchoolContext(DbContextOptions options) : base(options) { }
