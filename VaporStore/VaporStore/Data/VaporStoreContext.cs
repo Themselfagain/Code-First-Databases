@@ -8,7 +8,7 @@ using VaporStore.Data.Models;
 
 namespace VaporStore.Data
 {
-    public class VaporStoreContext:DbContext
+    public class VaporStoreContext : DbContext
     {
         public VaporStoreContext() { }
         public VaporStoreContext(DbContextOptions options) : base(options) { }
@@ -26,4 +26,5 @@ namespace VaporStore.Data
                 optionsBuilder.UseSqlServer(Configuration.ConnectionString);
             }
         }
+    }
 }
