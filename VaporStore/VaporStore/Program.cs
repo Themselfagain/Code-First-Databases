@@ -10,6 +10,8 @@ namespace VaporStore
     {
         static void Main(string[] args)
         {
+               var context = new VaporStoreContext();
+            context.Database.EnsureCreated();
         }
     }
 }
